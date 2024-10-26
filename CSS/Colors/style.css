@@ -1,5 +1,6 @@
 h1{
     color: brown;
+    background-color: blue;
 }
 h2{
     color: rgb(123, 76, 52);
@@ -7,4 +8,7 @@ h2{
 
 h3{
     color: #10d773;
+}
+h4{
+    color: hsl(114, 60%, 20%);
 }
