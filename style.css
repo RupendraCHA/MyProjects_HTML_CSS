@@ -1,8 +1,28 @@
-div{
+.container{
     height: 100vh;
-    background-image: radial-gradient(rgba(163, 50, 167, 0.354), rgba(0, 0, 255, 0.363), rgba(16, 16, 16, 0.413)), url("https://images.unsplash.com/photo-1729273789373-f17041e81224?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: bisque;
+    width: 80vw;
+    margin: 30px auto;
+    border: 2px solid blue;
+    /* FLEXBOX */
+
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap;
+    align-content: space-between; */
+}
+.container .child{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 3px solid red;
+    background-color: aqua;
+    text-align: center;
+    
+}
+.child6{
+    flex-shrink: 2;
+    /* flex-grow: 1; */
 }
