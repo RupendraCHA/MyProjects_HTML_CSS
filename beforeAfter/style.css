@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+p::before{
+    content: "RUPENDRA";
+    color: blue;
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+p::after{
+    content: "RUPENDRA";
+    color: blue;
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0px 20px;
+}

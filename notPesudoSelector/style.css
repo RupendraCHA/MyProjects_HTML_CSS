@@ -1,0 +1,22 @@
+body{
+    padding: 2rem;
+    background-color: rgb(83, 83, 82);
+    color: #fff;
+}
+section{
+    padding: 4rem;
+    width: 42rem;
+    margin: 0 auto;
+    background-color: black;
+}
+.section .article-title :not(.content, .hello){
+    color: blueviolet;
+}
+.section button:not([disabled]){
+    color: red;
+    background-color: antiquewhite;
+}
+.section a:not([href*="http://www.linkedin.com"]){
+    color: yellow;
+    text-decoration: none;
+}
