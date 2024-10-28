@@ -1,0 +1,14 @@
+:root{
+    --color: #020230;
+    --weight: normal;
+    --bgColor: yellow;
+}
+
+h1{
+    color: var(--color);
+}
+
+h2{
+    background-color: var(--bgColor);
+    font-weight: var(--weight);
+}
