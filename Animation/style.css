@@ -27,14 +27,16 @@ section div > p{
     0%{
         transform: translate(20px 20px);
         color: aliceblue;
+        transform: scale(2);
     }
     25%{
         transform: scale(1.5);
-        transform: rotate(80deg);
+        transform: translateX(30px);
+        transform: rotate(60deg);
         color: red;
     }
     75% {
-        transform: skew(260deg);
+        transform: skew(20deg);
         background-color: yellow;
         color: orange;
     }
