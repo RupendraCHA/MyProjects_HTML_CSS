@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+.section{
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article{
+    background-color: aqua;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+    height: 500px;
+}
+.btn{
+    font-size: 30px;
+    font-weight: 600;
+    padding: .2em;
+    color: white;
+}
+.a-bg-color{
+    background-color: black;
+}
+.b-bg-color{
+    background-color: green;
+}
