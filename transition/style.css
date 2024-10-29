@@ -1,0 +1,20 @@
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section > a{
+    border: 2px solid red;
+    padding: 10px 30px;
+    color: black;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    text-decoration: none;
+}
+
+section > a:hover{
+    background-color: red;
+    color: #fff;
+}
