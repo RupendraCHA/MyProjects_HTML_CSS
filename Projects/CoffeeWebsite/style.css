@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --main-color: #dead5f;
+    --primary-color: #312e2e;
+}
+
+/* Utility Styles */
+
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+
+/* Resets */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #100e0f;
+}
+
+/* Nav Start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0px;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: max(2vw, 14px);
+    padding-bottom: 6px;
+}
+
+li a:hover{
+    border-bottom: 2px solid var(--main-color);
+}
+.header{
+    background: url("../Images/CoffeeImage.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: "Playfair Display", serif;
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    font-size: max(20px,6vw);
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+.primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    font-size: max(20px,6vw);
+    word-spacing: 10px;
+    margin-bottom: -40px;
+    margin-bottom: 40px;
+}
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    transform: translateY(60px);
+}
